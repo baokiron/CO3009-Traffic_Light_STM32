@@ -1,6 +1,4 @@
-/*
- * fsm_tuning.h - Timing adjustment mode state machine
- */
+
 
 #ifndef INC_FSM_TUNING_H_
 #define INC_FSM_TUNING_H_
