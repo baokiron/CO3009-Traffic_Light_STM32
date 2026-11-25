@@ -1,20 +1,3 @@
-/*
- * global.h - Shared definitions for the Two-Road Traffic Light project (CO3009)
- *
- * This file is the "contract" between the three team members.
- * Agree on every name and signature here BEFORE coding in parallel.
- * Do not change a signature without telling the whole group.
- *
- * Owners:
- *   A: scheduler, software_timer, global, fsm_automatic
- *   B: button, fsm_manual
- *   C: traffic_light, dht20, lcd, fsm_tuning
- *
- * Rule: HAL calls are allowed ONLY in main.c and the hardware modules
- *       (button, traffic_light, dht20, lcd). Never in fsm_*.c or scheduler.c
- *       (scheduler.c may only be touched by the timer callback in main.c).
- */
-
 #ifndef INC_GLOBAL_H_
 #define INC_GLOBAL_H_
 

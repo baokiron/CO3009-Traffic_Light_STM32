@@ -1,5 +1,5 @@
 /*
- * lcd.h - I2C LCD display driver (Owner: C)
+ * lcd.h - I2C LCD display driver
  */
 
 #ifndef INC_LCD_H_

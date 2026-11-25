@@ -1,5 +1,5 @@
 /*
- * software_timer.h - Software timers for FSMs (Owner: A)
+ * software_timer.h - Software timers for FSMs
  */
 
 #ifndef INC_SOFTWARE_TIMER_H_

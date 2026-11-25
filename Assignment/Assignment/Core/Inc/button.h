@@ -1,5 +1,5 @@
 /*
- * button.h - Button reading, debouncing and long-press detection (Owner: B)
+ * button.h - Button reading, debouncing and long-press detection
  */
 
 #ifndef INC_BUTTON_H_
