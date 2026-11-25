@@ -1,6 +1,4 @@
-/*
- * traffic_light.h - Two-road traffic light hardware abstraction (Owner: C)
- */
+
 
 #ifndef INC_TRAFFIC_LIGHT_H_
 #define INC_TRAFFIC_LIGHT_H_
