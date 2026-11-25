@@ -1,5 +1,5 @@
 /*
- * fsm_tuning.h - Timing adjustment mode state machine (Owner: C)
+ * fsm_tuning.h - Timing adjustment mode state machine
  */
 
 #ifndef INC_FSM_TUNING_H_
