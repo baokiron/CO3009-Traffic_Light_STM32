@@ -1,7 +1,3 @@
-/*
- * button.h - Button reading, debouncing and long-press detection
- */
-
 #ifndef INC_BUTTON_H_
 #define INC_BUTTON_H_
 
