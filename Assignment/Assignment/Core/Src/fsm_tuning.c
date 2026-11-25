@@ -1,5 +1,4 @@
 
-
 #include "fsm_tuning.h"
 #include "global.h"
 #include "software_timer.h"
@@ -25,7 +24,7 @@ static uint8_t tune_is_valid(void)
     return (draft[IDX_RED] == draft[IDX_GREEN] + draft[IDX_AMBER]);
 }
 
-static void tune_flush_buttons(void)     /* bo cac lan nhan con ton tu che do truoc */
+static void tune_flush_buttons(void)     
 {
     for (uint8_t i = 0; i < NUM_BUTTONS; i++) {
         isButtonPressed(i);
@@ -33,13 +32,13 @@ static void tune_flush_buttons(void)     /* bo cac lan nhan con ton tu che do tr
     }
 }
 
-static void tune_print2(uint8_t v)       /* in so 2 chu so, vi du 05 */
+static void tune_print2(uint8_t v)       
 {
     lcd_print_int(v / 10);
     lcd_print_int(v % 10);
 }
 
-static void tune_draw(void)              /* moi dong dung du 16 ky tu => khong can lcd_clear */
+static void tune_draw(void)              
 {
     uint8_t idx = (uint8_t)(status - TUNE_RED);
 
@@ -57,7 +56,7 @@ static void tune_draw(void)              /* moi dong dung du 16 ky tu => khong c
     else                       lcd_print("BAD ");
 }
 
-static void tune_handle(void)            /* xu ly 1 tick o TUNE_RED / TUNE_GREEN / TUNE_AMBER */
+static void tune_handle(void)            
 {
     uint8_t idx = (uint8_t)(status - TUNE_RED);
 
