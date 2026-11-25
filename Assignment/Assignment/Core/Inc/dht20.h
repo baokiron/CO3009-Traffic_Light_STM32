@@ -1,5 +1,5 @@
 /*
- * dht20.h - DHT20 temperature and humidity sensor driver (Owner: C)
+ * dht20.h - DHT20 temperature and humidity sensor driver
  */
 
 #ifndef INC_DHT20_H_

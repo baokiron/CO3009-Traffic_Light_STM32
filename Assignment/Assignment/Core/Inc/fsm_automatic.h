@@ -1,5 +1,5 @@
 /*
- * fsm_automatic.h - Automatic mode state machine (Owner: A)
+ * fsm_automatic.h - Automatic mode state machine
  */
 
 #ifndef INC_FSM_AUTOMATIC_H_
