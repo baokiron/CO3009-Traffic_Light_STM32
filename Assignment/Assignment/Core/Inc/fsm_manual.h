@@ -1,5 +1,5 @@
 /*
- * fsm_manual.h - Manual mode state machine (Owner: B)
+ * fsm_manual.h - Manual mode state machine
  */
 
 #ifndef INC_FSM_MANUAL_H_
