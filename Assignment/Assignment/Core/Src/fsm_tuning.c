@@ -1,5 +1,3 @@
-
-
 #include "fsm_tuning.h"
 #include "global.h"
 #include "software_timer.h"
